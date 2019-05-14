@@ -1,54 +1,48 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css?family=Fredoka+One"
-     rel="stylesheet">
+    <head>
+        <meta charset="utf-8">
+        <title>Basic carousel - jCarousel Examples</title>
 
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400"
-     rel="stylesheet">
+        <!-- Shared assets -->
+        <link rel="stylesheet" href="css/style.css">
 
-  <link href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-     rel="stylesheet"
-     integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
-     crossorigin="anonymous">
+        <!-- Example assets -->
+        <link rel="stylesheet" href="css/jcarousel.basic.css">
 
-   <link href="css/style.css" rel="stylesheet">
-   <link href="css/nav.css" rel="stylesheet">
-   <link href="css/links.css" rel="stylesheet">
-   <link href="css/main.css" rel="stylesheet">
+        <script src="js/jquery.js"></script>
+        <script src="js/jquery.jcarousel.min.js"></script>
+        <script src="js/jcarousel.basic.js"></script>
 
-  <!-- <link rel="stylesheet" media="(max-width: 400px)" href="css/phone.css"> -->
-  <!-- <link rel="stylesheet" media="(min-width: 401px) and (max-width: 768px)" href="css/tablet.css"> -->
-  <!-- <link rel="stylesheet" media="(min-width: 769px) and (max-width: 1200px)" href="css/laptop.css"> -->
-  <link rel="stylesheet" media="(min-width: 1060px)" href="css/desktop.css">
-  <title>Jimin</title>
-</head>
-<body>
-  <header>
-    <section>
-      <div id="header">
-        <i class="fas fa-bars fa-2x"></i>
-        <nav>
-          <ul>
-            <li class="nav-title"><a href="index.html">Jimin</a></li>
-            <li class="left-one"><a href="index.html">Home</a></li>
-            <li class="left-one"><a href="about.html">About</a></li>
-            <li class="left-one"><a href="illust.html">Illust</a></li>
-            <li class="left-one"><a href="film.html">Film</a></li>
-          </ul>
-        </nav>
-      </div>
-    </section>
-  </header>
-  <main>
-    <section id="content">
-      <div class="main-container">
-         <img src="img/main-image-2x.jpg" width="700" alt="home image">
-         <p class="index-p">Welcome to the art of Jimin Hwang</p>
-      </div>
-    </section>
-  </main>
-</body>
+    </head>
+    <body>
+
+        <div class="wrapper">
+            <h1>Basic carousel</h1>
+
+            <p>This example shows how to setup a basic carousel with prev/next controls and pagination.</p>
+
+            <div class="jcarousel-wrapper">
+                <div class="jcarousel">
+                    <ul>
+                        <li><img src="img/img1.jpg" width="600" height="400" alt=""></li>
+                        <li><img src="img/img2.jpg" width="600" height="400" alt=""></li>
+                        <li><img src="img/img3.jpg" width="600" height="400" alt=""></li>
+                        <li><img src="img/img4.jpg" width="600" height="400" alt=""></li>
+                        <li><img src="img/img5.jpg" width="600" height="400" alt=""></li>
+                        <li><img src="img/img6.jpg" width="600" height="400" alt=""></li>
+                    </ul>
+                </div>
+
+                <p class="photo-credits">
+                    Photos by <a href="http://www.mw-fotografie.de">Marc Wiegelmann</a>
+                </p>
+
+                <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+                <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+
+                <p class="jcarousel-pagination"></p>
+            </div>
+        </div>
+    </body>
 </html>
